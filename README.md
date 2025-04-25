@@ -22,7 +22,14 @@ Auto Delivery Bots/
 
 ## 🚀 How to Run
 
-### 1. Start a Simple HTTP Server for the Frontend
+### 1. Clone this repo
+
+```bash
+git clone https://github.com/Kishore-Nair/Auto-D-bot.git
+```
+
+
+### 2. Start a Simple HTTP Server for the Frontend
 
 In the project root, run:
 
@@ -32,7 +39,7 @@ python3 -m http.server 8000
 
 
 
-### 2. Start the Backend Server
+### 3. Start the Backend Server
 
 In another terminal, navigate to the project folder and run:
 
