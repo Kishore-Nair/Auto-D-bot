@@ -8,6 +8,16 @@ A simulation of autonomous delivery bots navigating **New York Central Park** us
 
 ---
 
+## 🎬 Demo
+
+> Bot navigating Central Park via Bellman-Ford shortest path on the OSM road network
+
+![Bot delivery route visualization — Bellman-Ford shortest path through Central Park road network](demo.png)
+
+The blue polyline shows the computed shortest path along real walkable roads. The 📦 package icon animates along the route from the start (🏢 office) to the destination (🏠 home).
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -17,6 +27,7 @@ Auto-D-bot/
 ├── autobot_backend_packages.py   # Core algorithm implementations
 ├── botmap.html                   # Leaflet.js map — animated route visualization
 ├── path_coordinates.json         # Generated route data (algorithm output)
+├── demo.png                      # Demo screenshot — route visualization
 ├── pkg.png                       # Bot / package icon
 ├── office.png                    # Sender (start) location icon
 └── home.png                      # Destination location icon
